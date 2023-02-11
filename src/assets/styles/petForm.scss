@@ -1,0 +1,40 @@
+#petForm {
+  /*  height: 600px; */
+  width: 300px;
+  background-color: rgb(26, 26, 26);
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  top: 100px;
+  margin-left: -150px;
+  border-radius: 20px;
+  padding: 10px 23px;
+  color: #fff;
+  #containerBtnClose {
+    display: flex;
+    justify-content: flex-end;
+  }
+  h1 {
+    text-align: center;
+    margin: 0px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    input,
+    select {
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: none;
+      height: 35px;
+    }
+    label {
+      margin-bottom: 3px;
+      font-weight: 500;
+    }
+    button {
+      margin-top: 15px;
+    }
+  }
+}

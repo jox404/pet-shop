@@ -1,0 +1,23 @@
+#home {
+  background-color: black;
+  width: 100%;
+  height: 525px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  :first-child {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.658);
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.cardPet {
+  width: 300px;
+  height: 445px;
+  margin: auto auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #636363;
+  display: flex;
+  flex-direction: column;
+  .petImage {
+    img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 20px 20px 0px 0px;
+    }
+  }
+  > :last-child {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    padding: 10px 10px;
+    height: 100%;
+    > :first-child {
+      grid-column: 1 / span 2;
+      p {
+        text-align: center;
+        margin: 0px;
+        font-size: 22px;
+      }
+    }
+    .petInfo {
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+      li {
+        font-size: 18px;
+      }
+    }
+    .petManager {
+      display: flex;
+      flex: 1;
+      justify-content: space-around;
+      align-items: flex-end;
+      button {
+        max-height: 60px;
+      }
+    }
+  }
+}
